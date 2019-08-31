@@ -8,7 +8,7 @@ import GridListTile from '@material-ui/core/GridListTile';
 const styles = {
   root: {
     width: '30%',
-    padding: '20px',
+    padding: '20px'
   },
   title: {
     fontSize: 20,
@@ -19,9 +19,13 @@ const styles = {
 class RoverPhotos extends PureComponent {
   render() {
     const { classes, photos, name } = this.props;
+
+    if (photos.length <= 0) return null;
     return (
       <Paper className={classes.root}>
-        <Typography className={classes.title} component="h2">{name}</Typography>
+        <Typography className={classes.title} component="h2">
+          {name}
+        </Typography>
         <GridList cols={3}>
           {photos.map(photo => (
             <GridListTile

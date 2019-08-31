@@ -24,6 +24,7 @@ class Login extends PureComponent {
   state = {
     inputValue: ''
   };
+
   handleChange = event => {
     this.setState({ inputValue: event.target.value });
   };
@@ -39,6 +40,7 @@ class Login extends PureComponent {
   render() {
     const { classes } = this.props;
     const { inputValue } = this.state;
+
     return (
       <Paper className={classes.root}>
         <Typography className={classes.paragraph} component="p">
