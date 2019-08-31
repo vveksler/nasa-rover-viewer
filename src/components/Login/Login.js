@@ -22,8 +22,9 @@ const styles = theme => ({
 
 class Login extends PureComponent {
   state = {
-    inputValue: ''
+    inputValue: 'csWe3aOyRShJsUnSvR2vf2a81OtsP4gASvazs0pe'
   };
+
   handleChange = event => {
     this.setState({ inputValue: event.target.value });
   };
@@ -39,6 +40,7 @@ class Login extends PureComponent {
   render() {
     const { classes } = this.props;
     const { inputValue } = this.state;
+
     return (
       <Paper className={classes.root}>
         <Typography className={classes.paragraph} component="p">
