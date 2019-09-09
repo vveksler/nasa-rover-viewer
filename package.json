@@ -2,6 +2,7 @@
   "name": "hw",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://vveksler.github.io/nasa-rover-viewer/",
   "dependencies": {
     "@material-ui/core": "^3.2.2",
     "@material-ui/lab": "^3.0.0-alpha.20",

@@ -1,3 +1,3 @@
 # Nasa rover viewer
 
-[Demo](http://react-nasa-rover-viewer.surge.sh)
+[Demo](https://vveksler.github.io/nasa-rover-viewer/)
