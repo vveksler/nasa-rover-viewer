@@ -1,3 +1,3 @@
 # Nasa rover viewer
 
-[Demo](https://vveksler.github.io/nasa-rover-viewer/)
+[Demo](https://vveksler.github.io/nasa-rover-viewer/index.html)
